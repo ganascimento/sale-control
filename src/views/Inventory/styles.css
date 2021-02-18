@@ -1,0 +1,91 @@
+.table-content, .form-content, .final-content, .content-body {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.content-body {
+    width: 100%;
+    flex-direction: column;
+}
+
+.table-content {
+    flex-direction: column;
+    background-color: white;
+    padding: 12px 0px 12px 0px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 530px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.table-content tbody tr:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+.table-content .select-row {
+    background-color: lightblue;
+}
+
+.min-value {
+    background-color: rgb(255,230,230);
+}
+
+.table-functions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.table-functions button {
+    margin-right: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+.table-functions button:hover {
+    background-color: rgb(0,153,255);
+}
+.table-functions button:last-child {
+    margin-right: 35px;
+}
+
+.final-content {
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.final-content button {
+    margin-top: 30px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.form-group .btn-select-view {
+    width: 100%;
+}
+
+.form-group .btn-select-view button {
+    padding: 7px;
+    display: block;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5pxs;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

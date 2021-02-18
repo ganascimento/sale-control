@@ -1,0 +1,163 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+button {
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.header-content, .table-content, .footer-content, .final-content, .form-content {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.header-content, .table-content {
+    background-color: white;
+    padding: 12px 0px 12px 0px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.header-content input {
+    width: 75%;
+    height: 40px;
+    padding: 0;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+.header-content button {
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    height: 45px;
+    font-size: 18px;
+}
+
+.table-content {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.table-content tbody tr:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+.table-content .select-row {
+    background-color: lightblue;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+.footer-content .first {
+    width: 50%;
+}
+.footer-content .second {
+    width: 50%;
+}
+.info-box {
+    background-color: white;
+    width: 220px;
+    padding: 20px 0 20px 0;
+    border-radius: 4px;
+}
+.info-box p {
+    margin-bottom: 2px;
+    color: purple;
+    font-weight: bold;
+    font-size: 29px;
+}
+.info-box span {
+    color: rgb(120,120,120);
+    font-size: 17px;
+}
+.footer-content .second .info-box:not(:first-child) {
+    margin-left: 15px;
+}
+.footer-content .first .info-box:not(:last-child) {
+    margin-right: 15px;
+}
+
+.final-content {
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.final-content button {
+    margin-left: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.final-content p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: start;
+}
+.final-content p:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.content-modal {
+    height: 20%;
+    width: 600px;
+}
+
+.product-list {
+    overflow-y: auto;
+}
+
+.form-content {
+    margin-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    color: black;
+}
+
+.form-group input {
+    width: 100% !important;
+}
+
+.action-list-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.action-list-info div:not(:last-child) {
+    margin-right: 15px;
+}
+
+.row-table-sale:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.sale-detail-info {
+    margin-left: 12px;
+    margin-bottom: 3px;
+    color: black;
+    font-size: 16px;
+}
+.sale-detail-info span {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-left: 5px;
+}

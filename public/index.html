@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+        background: rgb(111,110,242);
+          background-image: linear-gradient( 330deg,  rgba(38,197,198,1) 11.2%, rgba(51,8,103,1) 92.5% );
+      }
+      button, input, label, th, td, p, h3, select, option {
+        font-family: 'Quicksand', sans-serif;
+      }
+      .md-field>.md-icon:after {
+          width: 0!important;
+          height: 0!important;
+      }
+      .md-field .md-input-action {
+        top: 3px!important;
+      }
+      .md-progress-spinner-circle {
+        stroke: white!important;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

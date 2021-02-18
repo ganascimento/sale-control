@@ -1,0 +1,89 @@
+.select-content, .table-content, .table-content-clean {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.select-content {
+    margin-top: 30px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.table-content {
+    flex-direction: column;
+    margin-top: 25px;
+    height: 75%;
+    align-items: flex-start;
+    background-color: white;
+    padding: 12px 0px 12px 0px;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+.table-functions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.table-functions button {
+    margin-right: 10px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+.table-functions button:hover {
+    background-color: rgb(0,153,255);
+}
+.table-functions button:last-child {
+    margin-right: 35px;
+}
+
+.table-content-clean {
+    margin-top: 25px;
+    height: 75%;
+    padding: 12px 0px 12px 0px;
+}
+
+select {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: .375rem 12px;
+    border: none;
+}
+
+.datepicker {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    background-color: white;
+    min-height: 39px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0 4px 10px;
+    border: none;
+}
+.datepicker label {
+    padding-left: 10px;
+    top: 8px;
+    color: black!important;
+}
+
+.md-has-value label {
+    display: none;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

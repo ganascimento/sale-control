@@ -1,0 +1,120 @@
+.body {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    height: 80%;
+}
+
+.loading-content {
+    width: 95%;
+    height: 80%;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body div {
+    padding: 30px 0;
+    width: 300px;
+    border: 1px solid rgb(235,235,235);
+    font-size: 22px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(235,235,235);
+}
+.body div:hover {
+    transition: .3s;
+    box-shadow: 3px 3px 5px rgb(50,50,50);
+    background-color: rgba(255,255,255,.2);
+}
+.body div:active {
+    background-color: rgba(255,255,255,.4);
+}
+
+.body div:not(:last-child) {
+    margin-right: 30px;
+}
+
+.body div i {
+    font-size: 35px;
+}
+
+.body div p {
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.md-dialog /deep/.md-dialog-container {
+    max-width: 500px;
+}
+
+.content-modal, .content-modal-balance, .content-modal-inventory {
+    padding: 0 25px;
+    color: black;
+    font-size: 15px;
+}
+
+.content-modal-balance, .content-modal-inventory {
+    width: 400px;
+}
+
+.content-modal p {
+    color: black;
+    font-size: 17px;
+}
+
+.content-modal-inventory input {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: .375rem 12px;
+    border: none;
+    border: 1px solid rgb(150,150,150);
+}
+
+.form-config {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.form-config {
+    margin-bottom: 15px;
+}
+.form-config label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.form-config select {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: .375rem 12px;
+    border: none;
+    border: 1px solid rgb(150,150,150);
+}
+
+@media (max-width: 950px) {
+    .body {
+        flex-direction: column;
+    }
+
+    .body div:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .body div {
+        width: 90%;
+    }
+}

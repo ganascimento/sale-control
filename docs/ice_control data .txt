@@ -1,0 +1,9 @@
+
+Dados do sistema do Paulo
+	GMail
+		ice.cream.control65@gmail.com
+		Ic53748956
+	
+	Database user
+		admin
+		Ic53748956Db
