@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const connectionString = 'mongodb+srv://admin:Ic53748956Db@cluster0.o10g8.mongodb.net/iceControl?retryWrites=true&w=majority';
+const connectionString = '';
 
 const connect = async () => {
     try {
